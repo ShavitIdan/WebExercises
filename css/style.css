@@ -1,0 +1,305 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header, main, footer, nav, aside, section, div {
+    display: block;
+}
+
+main {
+    width: 100%;
+}
+
+#wrapper {
+    margin: 0px 40px;
+}
+
+header {
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+
+}
+
+#logo {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+#logo span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 0.25em;
+    margin-left: 55px;
+    color: #3E3F43;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Paragraph1 {
+    width: 100%;
+    height: 555px;
+    background-color: #F9BDBD;
+    position: relative;
+}
+
+.p1text {
+    font-family: 'Nunito';
+    font-style: normal; 
+
+}
+
+.p1title {
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+    position: absolute;
+    top: 83px;
+    left: 516px;
+}
+
+.p1p {
+    margin-top: 40px;
+    font-family: 'Nunito';
+    font-style: normal;
+    line-height: 33px;
+    position: absolute;
+    top: 99px;
+    left: 516px;
+    font-size: 24px;
+    color: #000000;
+}
+
+.image1 {
+    position: absolute;
+    top: 83px;
+    left: 40px;
+    z-index: 0;
+}
+
+.image2 {
+    position: absolute;
+    top: 45px;
+    left: 100px;
+    z-index: 1;
+}
+
+.p2text {
+    position: relative;
+    left: 0px;
+    right: 34.92%;
+    top: 25.53%;
+    bottom: 61.33%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    text-align: justify;
+    color: #000000;
+
+}
+
+.ex-container {
+    display: flex;
+    gap: 24px;
+}
+
+.ex {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    width: 200px;
+    height: 264px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #FDEDE5;
+}
+
+.ex:nth-child(2) {
+    background-color: #EBF1FF;
+}
+
+.ex:nth-child(3) {
+    background-color: #EBFFEC;
+    
+}
+
+.ex:nth-child(4) {
+    background-color: #FFEBFC;
+}
+
+.ex:nth-child(5) {
+    background-color: #FFFEEB;
+  
+}
+
+.ex:nth-child(5) {
+    background: #FFFEEB;
+    margin-right: 40px;
+}
+
+h5 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    color: #171F46;
+    padding: 8px 15.16px 8px 16.84px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 20px;
+    font-family: 'Rubik'; 
+    font-style: normal;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #171F46;
+}
+
+.ex:nth-child(1) button:hover {
+    color: #FDEDE5;
+}
+
+.ex:nth-child(2) button:hover {
+    color: #EBF1FF;
+}
+
+.ex:nth-child(3) button:hover {
+    color: #EBFFEC;
+}
+
+.ex:nth-child(4) button:hover {
+    color: #FFEBFC;
+}
+
+.ex:nth-child(5) button:hover {
+    color: #FFFEEB;
+}
+
+.list {
+    margin-left: 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
+    color: #000000;
+}
+
+.Paragraph3 {
+    background: #F9BDBD;
+    width: 100%;
+    height: 508px;
+}
+
+.p3title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.video {
+    width: 560px; 
+    height: 315px; 
+    margin: 100px 350px;
+}
+
+footer {
+    background-color: #efefef;
+    height: 301px;
+    width: 100%;
+    margin-top: 271px;
+    font-family: 'Nunito';
+    font-style: normal;
+    line-height: 19px;
+    overflow: hidden;
+}
+
+footer h4 {
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    height: 25px;
+    left: 40px;
+    top: 32px;
+    display: block;
+}
+
+.socials a {
+    color: #8D8D8D;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    overflow: hidden;
+}
+
+.facebook {
+    position: relative;
+    width: 60px;
+    height: 19px;
+    left: 40px;
+    top: 43px;
+}
+
+.instagram {
+    position: relative;
+    height: 19px;
+    left: 40px;
+    top: 58px;
+}
+
+.shenkar {
+    position: relative;
+    height: 19px;
+    left: 40px;
+    top: 75px;
+}
+
+.copyright {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    position: relative;
+    width: 108.33px;
+    height: 17.65px;
+    left: 40px;
+    top: 150px;
+    color: #8D8D8D;
+}
