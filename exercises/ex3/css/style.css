@@ -1,0 +1,486 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header, main, footer, nav, aside, section, div {
+    display: block;
+}
+
+/* layout1 */
+
+header {
+    width: 100%;
+    background: #F2E9E9;
+    height: 123px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 18px;
+    padding-top: 52px;
+    margin-left: 575px;
+}
+
+.navbar ul  li > a {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    position: relative;
+}
+
+.navbar ul li > a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #F72828;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.navbar ul li > a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+#layout1 .selected {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: #F72828;
+    border-radius: 50%;
+    top: 34px;
+    left: 595px;
+}
+  
+a {
+    text-decoration: none;
+}
+
+#layout1 > main {
+    position: relative;
+    height: 860px;
+}
+
+#layout1 > main > section {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+}
+
+#layout1 > main > section > p:first-child {
+    position: absolute;
+    left: 244px;
+    top: 390px;
+    font-size: 72px;
+    line-height: 96px;
+}
+
+#layout1 > main > section > p:last-child {
+    position: absolute;
+    left: 244px;
+    top: 477px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#layout1 > main > .box {
+    background-color: #EBEF18;
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    top: 135px;
+    left: 688px;
+}
+
+#layout1 > main > .box:nth-child(2){
+    position: absolute;
+    width: 136px;
+    height: 46px;
+    top: 166px;
+    left: 688px;
+}
+
+#layout1 > main > .box:nth-child(3){
+    position: absolute;
+    width: 134px;
+    height: 404px;
+    top: 223px;
+    left: 688px;
+}
+
+#layout1 > main > .box:nth-child(4){
+    position: absolute;
+    width: 88px;
+    height: 28px;
+    top: 638px;
+    left: 688px;
+}
+
+#layout1 > main > .box:nth-child(5){
+    position: absolute;
+    width: 25px;
+    height: 26px;
+    top: 673px;
+    left: 688px;
+}
+
+#layout1 > main > .box:nth-child(6){
+    position: absolute;
+    width: 25px;
+    height: 26px;
+    top: 673px;
+    left: 720px;
+}
+
+#layout1 > main > .box:nth-child(7){
+    position: absolute;
+    width: 246px;
+    height: 352px;
+    top: 135px;
+    left: 837px;
+}
+
+#layout1 > main > .box:nth-child(8){
+    position: absolute;
+    width: 123px;
+    height: 212px;
+    top: 503px;
+    left: 837px;
+}
+
+#layout1 > main > .box:nth-child(9){
+    position: absolute;
+    width: 110px;
+    height: 58px;
+    top: 615px;
+    left: 974px;
+}
+
+#layout1 > main > .box:nth-child(10){
+    position: absolute;
+    width: 28px;
+    height: 55px;
+    top: 91px;
+    left: 1097px;
+}
+
+#layout1 > main > .box:nth-child(11){
+    position: absolute;
+    width: 28px;
+    height: 55px;
+    top: 157px;
+    left: 1097px;
+}
+
+#layout1 > main > .box:nth-child(12){
+    position: absolute;
+    width: 28px;
+    height: 55px;
+    top: 223px;
+    left: 1097px;
+}
+
+#layout1 > main > .box:nth-child(13){
+    position: absolute;
+    width: 28px;
+    height: 198px;
+    top: 289px;
+    left: 1097px;
+}
+
+#layout1 > main > .box:nth-child(14){
+    position: absolute;
+    width: 55px;
+    height: 105px;
+    top: 503px;
+    left: 974px;
+}
+
+#layout1 > main > .box:nth-child(15){
+    position: absolute;
+    width: 55px;
+    height: 105px;
+    top: 503px;
+    left: 1070px;
+}
+
+#layout1  footer {
+    width: 100%;
+    height: 41px;
+    background: #000000;
+}
+
+
+/* layout2 */
+
+#layout2 .selected {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: #F72828;
+    border-radius: 50%;
+    top: 34px;
+    left: 686px;
+}
+
+#layout2 footer {
+    position: fixed;
+    height: 41px;
+    background-color: #000000;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+#layout2 #wrapper {
+    margin: 119px 151px 0px;
+    display: flex;
+}
+
+#layout2 .box {
+    width: 457px;
+    height: 299px;
+    margin-bottom: 70px;
+    background:#C4C4C4;    
+}
+
+.leftrow {
+    display: flex;
+    flex-direction: column;
+    margin-right: 55px;
+}
+
+.rightrow {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightrow .box:first-child {
+    margin-top: 168px;
+}
+
+#layout2 aside {
+    background: #EBEF18;
+    position: absolute;
+    top: 123px;
+    right: 0px;
+    width: 169px;
+    height: 1925px;
+
+}
+
+#layout2 aside ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 20px;
+    left: 44px;
+}
+
+#layout2 aside a {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 128px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+}
+
+#layout2 aside .box {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 0px;
+    top: 119px;
+    background: #000000;
+}
+
+#layout2 aside .box:nth-child(2) {
+    position: absolute;
+    left: 89px;
+    top: 247px;
+    background: #FFFFFFFF;
+}
+
+#layout2 aside .box:last-child {
+    position: absolute;
+    left: 0px;
+    top: 616px;
+}
+
+
+/* layout3 */
+@media screen and (min-width:851px){
+
+    #layout3 header {
+        width: 1440px;
+        height: 123px;
+    }
+    #layout3 header .box {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 1336px;;
+        top: 21px;
+        background: #000000;
+    }
+
+    #layout3 .navbar ul {
+        display: flex;
+        gap: 18px;
+        padding-top: 123px;
+        margin-left: 38px;
+    }
+
+    #layout3 .navbar {
+        background: #E5E5E5;
+        width: 25.83333%;
+        height: 995px;
+    }
+
+    #layout3 .selected {
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        background-color: #F72828;
+        border-radius: 50%;
+        top: 228px;
+        left: 301px;
+    }
+
+    #layout3 #wrapper {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #layout3 main {
+        position: absolute;
+        left: 372px;
+        top: 123px;
+        width: 964px;
+        height: 995px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #FFFFFFFF;
+    }
+
+    #layout3 section {
+        position: absolute;
+        left: 1336px;
+        top: 123px;
+        height: 995px;
+        width: 104px;
+        background: rgba(24, 71, 239, 0.3);
+    }
+
+    #layout3 aside {
+        position: absolute;
+        width: 1440px;
+        height: 463px;
+        left: 0px;
+        top: 1118px;
+        background: #EBEF18;
+    }
+
+    #layout3 footer {
+        position: absolute;
+        width: 1440px;
+        height: 41px;
+        left: 0px;
+        top: 1582px;
+        background: #000000;
+    }
+}
+
+@media screen and (max-width:850px){
+    #layout3 header {
+        width: 850px;
+        height: 123px;
+    }
+    #layout3 header .box {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 744px;;
+        top: 21px;
+        background: #000000;
+    }
+
+    #layout3 .navbar ul {
+        display: flex;
+        gap: 18px;
+        padding-top: 45px;
+        margin-left: 302px;
+    }
+
+    #layout3 .navbar {
+        position: relative;
+        background: #E5E5E5;
+        width: 850px;
+        height: 105px;
+    }
+
+    #layout3 .selected {
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        background-color: #F72828;
+        border-radius: 50%;
+        top: 27px;
+        left: 565px;
+    }
+
+    #layout3 #wrapper {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #layout3 main {
+        position: relative;
+        width: 850px;
+        height: 1346px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #layout3 section {
+       display: none;
+    }
+
+    #layout3 aside {
+        position: absolute;
+        width: 850px;
+        height: 409px;
+        left: 0px;
+        top: 1574px;
+        background: #EBEF18;
+    }
+
+    #layout3 footer {
+        position: absolute;
+        width: 850px;
+        height: 41px;
+        left: 0px;
+        top: 1983px;
+        background: #000000;
+    }
+}

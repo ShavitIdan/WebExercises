@@ -129,7 +129,15 @@ a {
     height: 264px;
     overflow: hidden;
     border-radius: 20px;
-    background-color: #FDEDE5;
+    
+}
+
+.image-ex {
+    padding-right: 96px;
+    padding-left: 24px;
+}
+.ex:nth-child(1) {
+    background-color: #FDEDE5
 }
 
 .ex:nth-child(2) {
@@ -161,11 +169,14 @@ h5 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
+    padding-right: 96px;
+    padding-left: 24px;
     color: #000000;
 }
 
 button {
+    /* padding-left: 24px;
+    padding-right: 96px; */
     width: 120px;
     height: 40px;
     background-color: white;
