@@ -3,7 +3,13 @@
     padding: 0px;
 }
 
-header, main, footer, nav, aside, section, div {
+header,
+main,
+footer,
+nav,
+aside,
+section,
+div {
     display: block;
 }
 
@@ -26,7 +32,7 @@ ul {
     margin-left: 575px;
 }
 
-.navbar ul  li > a {
+.navbar ul li>a {
     font-family: 'Amiko';
     font-style: normal;
     font-weight: 400;
@@ -36,7 +42,7 @@ ul {
     position: relative;
 }
 
-.navbar ul li > a::before {
+.navbar ul li>a::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -50,7 +56,7 @@ ul {
     transition: transform .3s ease-in-out;
 }
 
-.navbar ul li > a:hover::before {
+.navbar ul li>a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }
@@ -64,24 +70,24 @@ ul {
     top: 34px;
     left: 595px;
 }
-  
+
 a {
     text-decoration: none;
 }
 
-#layout1 > main {
+#layout1>main {
     position: relative;
     height: 860px;
 }
 
-#layout1 > main > section {
+#layout1>main>section {
     font-family: 'Amiko';
     font-style: normal;
     font-weight: 700;
     color: #000000;
 }
 
-#layout1 > main > section > p:first-child {
+#layout1>main>section>p:first-child {
     position: absolute;
     left: 244px;
     top: 390px;
@@ -89,7 +95,7 @@ a {
     line-height: 96px;
 }
 
-#layout1 > main > section > p:last-child {
+#layout1>main>section>p:last-child {
     position: absolute;
     left: 244px;
     top: 477px;
@@ -97,7 +103,7 @@ a {
     line-height: 32px;
 }
 
-#layout1 > main > .box {
+#layout1>main>.box {
     background-color: #EBEF18;
     position: absolute;
     width: 75px;
@@ -106,7 +112,7 @@ a {
     left: 688px;
 }
 
-#layout1 > main > .box:nth-child(2){
+#layout1>main>.box:nth-child(2) {
     position: absolute;
     width: 136px;
     height: 46px;
@@ -114,7 +120,7 @@ a {
     left: 688px;
 }
 
-#layout1 > main > .box:nth-child(3){
+#layout1>main>.box:nth-child(3) {
     position: absolute;
     width: 134px;
     height: 404px;
@@ -122,7 +128,7 @@ a {
     left: 688px;
 }
 
-#layout1 > main > .box:nth-child(4){
+#layout1>main>.box:nth-child(4) {
     position: absolute;
     width: 88px;
     height: 28px;
@@ -130,7 +136,7 @@ a {
     left: 688px;
 }
 
-#layout1 > main > .box:nth-child(5){
+#layout1>main>.box:nth-child(5) {
     position: absolute;
     width: 25px;
     height: 26px;
@@ -138,7 +144,7 @@ a {
     left: 688px;
 }
 
-#layout1 > main > .box:nth-child(6){
+#layout1>main>.box:nth-child(6) {
     position: absolute;
     width: 25px;
     height: 26px;
@@ -146,7 +152,7 @@ a {
     left: 720px;
 }
 
-#layout1 > main > .box:nth-child(7){
+#layout1>main>.box:nth-child(7) {
     position: absolute;
     width: 246px;
     height: 352px;
@@ -154,7 +160,7 @@ a {
     left: 837px;
 }
 
-#layout1 > main > .box:nth-child(8){
+#layout1>main>.box:nth-child(8) {
     position: absolute;
     width: 123px;
     height: 212px;
@@ -162,7 +168,7 @@ a {
     left: 837px;
 }
 
-#layout1 > main > .box:nth-child(9){
+#layout1>main>.box:nth-child(9) {
     position: absolute;
     width: 110px;
     height: 58px;
@@ -170,7 +176,7 @@ a {
     left: 974px;
 }
 
-#layout1 > main > .box:nth-child(10){
+#layout1>main>.box:nth-child(10) {
     position: absolute;
     width: 28px;
     height: 55px;
@@ -178,7 +184,7 @@ a {
     left: 1097px;
 }
 
-#layout1 > main > .box:nth-child(11){
+#layout1>main>.box:nth-child(11) {
     position: absolute;
     width: 28px;
     height: 55px;
@@ -186,7 +192,7 @@ a {
     left: 1097px;
 }
 
-#layout1 > main > .box:nth-child(12){
+#layout1>main>.box:nth-child(12) {
     position: absolute;
     width: 28px;
     height: 55px;
@@ -194,7 +200,7 @@ a {
     left: 1097px;
 }
 
-#layout1 > main > .box:nth-child(13){
+#layout1>main>.box:nth-child(13) {
     position: absolute;
     width: 28px;
     height: 198px;
@@ -202,7 +208,7 @@ a {
     left: 1097px;
 }
 
-#layout1 > main > .box:nth-child(14){
+#layout1>main>.box:nth-child(14) {
     position: absolute;
     width: 55px;
     height: 105px;
@@ -210,7 +216,7 @@ a {
     left: 974px;
 }
 
-#layout1 > main > .box:nth-child(15){
+#layout1>main>.box:nth-child(15) {
     position: absolute;
     width: 55px;
     height: 105px;
@@ -218,7 +224,7 @@ a {
     left: 1070px;
 }
 
-#layout1  footer {
+#layout1 footer {
     width: 100%;
     height: 41px;
     background: #000000;
@@ -226,6 +232,12 @@ a {
 
 
 /* layout2 */
+
+#layout2 {
+    width: 1440px;
+    height: 2024px;
+
+}
 
 #layout2 .selected {
     position: absolute;
@@ -247,41 +259,44 @@ a {
     margin-bottom: 0px;
 }
 
+#layout2 main {
+    display: flex;
+    height: 1901px;
+    width: 1271px;
+    overflow: hidden;
+}
+
 #layout2 #wrapper {
     margin: 119px 151px 0px;
     display: flex;
+}
+
+.boxContainerLeft {
+    margin-left: 151px;
+    margin-top: 119px;
+}
+
+.boxContainerRight {
+    margin-left: 55px;
+    margin-top: 287px;
 }
 
 #layout2 .box {
     width: 457px;
     height: 299px;
     margin-bottom: 70px;
-    background:#C4C4C4;    
+    background: #C4C4C4;
 }
 
-.leftrow {
-    display: flex;
-    flex-direction: column;
-    margin-right: 55px;
-}
 
-.rightrow {
-    display: flex;
-    flex-direction: column;
-}
-
-.rightrow .box:first-child {
-    margin-top: 168px;
-}
 
 #layout2 aside {
-    background: #EBEF18;
     position: absolute;
+    left: 1271px;
     top: 123px;
-    right: 0px;
     width: 169px;
     height: 1925px;
-
+    background: #EBEF18;
 }
 
 #layout2 aside ul {
@@ -329,17 +344,19 @@ a {
 
 
 /* layout3 */
-@media screen and (min-width:851px){
+@media screen and (min-width:851px) {
 
     #layout3 header {
         width: 1440px;
         height: 123px;
     }
+
     #layout3 header .box {
         position: absolute;
         width: 80px;
         height: 80px;
-        left: 1336px;;
+        left: 1336px;
+        ;
         top: 21px;
         background: #000000;
     }
@@ -378,9 +395,12 @@ a {
         top: 123px;
         width: 964px;
         height: 995px;
+        overflow: auto;
+    }
+
+    .game {
         display: flex;
         flex-wrap: wrap;
-        background-color: #FFFFFFFF;
     }
 
     #layout3 section {
@@ -409,21 +429,34 @@ a {
         top: 1582px;
         background: #000000;
     }
+
+    .boxes {
+        margin-left: 64px;
+        margin-right: 20px;
+        margin-top: 123px;
+        background: #000000;
+        text-align: center;
+        line-height: 80px;
+        transition: all .15s ease-in;
+    }
+
+
+    .boxes:hover {
+        background-color: grey;
+    }
+
+    span {
+        color: #FFFFFFFF;
+    }
 }
 
-@media screen and (max-width:850px){
+@media screen and (max-width:850px) {
     #layout3 header {
         width: 850px;
         height: 123px;
     }
-    #layout3 header .box {
-        position: absolute;
-        width: 80px;
-        height: 80px;
-        left: 744px;;
-        top: 21px;
-        background: #000000;
-    }
+
+
 
     #layout3 .navbar ul {
         display: flex;
@@ -455,15 +488,19 @@ a {
     }
 
     #layout3 main {
-        position: relative;
+        position: absolute;
         width: 850px;
         height: 1346px;
+        overflow: auto;
+    }
+
+    .game {
         display: flex;
         flex-wrap: wrap;
     }
 
     #layout3 section {
-       display: none;
+        display: none;
     }
 
     #layout3 aside {
@@ -481,6 +518,35 @@ a {
         height: 41px;
         left: 0px;
         top: 1983px;
+        background: #000000;
+    }
+
+    .boxes {
+        margin-left: 48px;
+        margin-top: 80px;
+        margin-right: 20px;
+        background: #000000;
+        text-align: center;
+        line-height: 80px;
+        transition: all .15s ease-in;
+    }
+
+
+    .boxes:hover {
+        background-color: grey;
+    }
+
+    span {
+        color: #FFFFFFFF;
+    }
+
+    #layout3 header .box {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 744px;
+        ;
+        top: 21px;
         background: #000000;
     }
 }
