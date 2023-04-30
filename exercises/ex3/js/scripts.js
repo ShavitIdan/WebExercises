@@ -50,7 +50,7 @@ const revealBox = function () {
     let clickedBox = $(this);
     let letter = clickedBox.find('span');
 
-    if (clickedBox.hasClass('revealed') || letter.length === 0) {
+    if (clickedBox.hasClass('revealed') || letter.length === 0 || clickedBox.hasClass('matched')) {
         return;
     }
 
