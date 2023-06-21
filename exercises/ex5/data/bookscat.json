@@ -1,0 +1,19 @@
+{
+    "category": [
+        {
+            "name": "All"
+        },
+        {
+            "name": "Classic"
+        },
+        {
+            "name": "Historical"
+        },
+        {
+            "name": "Fantasy"
+        },
+        {
+            "name": "Mystery"
+        }
+    ]
+}
