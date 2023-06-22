@@ -43,7 +43,7 @@
                 </div>
                 <?php 
 				echo '<div class="row">';
-				while($row = mysqli_fetch_assoc($result)) {//results are in associative array. keys are cols names
+				while($row = mysqli_fetch_assoc($result)) {
 					$img = $row["img1_url"];
 					if(!$img) $img = "uploads/default_book_cover_2015.png";
 					echo '<div class="bookCard col-sm-4 mb-3">';
